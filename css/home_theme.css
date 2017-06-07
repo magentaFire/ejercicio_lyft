@@ -1,0 +1,9 @@
+.background-container {
+  display: flex;
+  background-image: url("http://16391-presscdn-0-53.pagely.netdna-cdn.com/wp-content/uploads/2014/12/tumblr-art-gifs-hghwy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+}
