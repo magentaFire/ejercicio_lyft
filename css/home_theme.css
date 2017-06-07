@@ -7,3 +7,41 @@
   background-position: center;
   height: 100vh;
 }
+
+.logo-lyft {
+  filter: grayscale(100) brightness(100);
+  width: 25vh;
+}
+
+.logo-container {
+  display: flex;
+  width: 100vw;
+  height: 25vh;
+  justify-content: center;
+  margin-top: 10vh;
+}
+
+.abajo{
+  position: fixed;
+  bottom: 30px;
+  width:100%;
+}
+
+.btn-sign {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 40px;
+  margin: 0 20px;
+}
+
+.btn-sign:hover {
+  background: linear-gradient(to top, #6600cc -25%, #ff33cc 100%);
+}
+
+.btn-container {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+}
