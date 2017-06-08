@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+  <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/signup_theme.css">
+  <link rel="stylesheet" href="css/home_theme.css">
+  <title>Sign Up</title>
+</head>
+<body>
+
+  <header class="signup-header">
+    <div class="header-container">
+      <h2>Sign up</h2>
+      <p>Join now for free ride credit</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1 col-lg-6">
+        <div class="input-group">
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <span>País</span>
+              <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              <li><img src="icons/flag-mexico.png" alt=""><a href="#" id="opt-mexico">México</a></li>
+              <li><img src="icons/flag-usa.png" alt=""><a href="#" id="opt-us">Estados Unidos</a></li>
+              <li><img src="icons/flag-uk.png" alt=""><a href="#" id="opt-uk">Reino Unido</a></li>
+              <li><img src="icons/flag-germany.png" alt=""><a href="#" id="opt-germany">Alemania</a></li>
+              <li><img src="icons/flag-japan.png" alt=""><a href="#" id="opt-japan">Japón</a></li>
+              <li><img src="icons/flag-spain.png" alt=""><a href="#" id="opt-spain">España</a></li>
+            </ul>
+          </div><!-- /btn-group -->
+          <input type="text" class="form-control" aria-label="..." placeholder="¿En qué país estás?">
+        </div><!-- /input-group -->
+      </div><!-- /.col-lg-6 -->
+      <div class="col-xs-8 col-xs-offset-2">
+        <span>Te enviaremos un mensaje de texto para verificar tu teléfono</span>
+      </div>
+    </div>
+
+    <div class="btn-send-container">
+      <button type="button" name="button" class="btn-sign">Enviar</button>
+    </div>
+  </main>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->
+  <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
+  <script type="text/javascript" src="js/signup_app.js"></script>
+</body>
+</html>
